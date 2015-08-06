@@ -14,3 +14,16 @@ $(function () {
     router: new Router(App)
   });  
 });
+
+App.on('before:start', function(options) {
+  App.layout = options.layout;
+  App.layoutRegion.show(this.layout);
+  App.appRouter = options.router;  
+});
+
+App.on('start', function(options) {
+  if (Backbone.history) {
+    Backbone.history.start();
+    console.log('start!');
+  }
+});
