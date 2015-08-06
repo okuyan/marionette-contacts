@@ -1,0 +1,22 @@
+{
+  "name": "marionette-contacts",
+  "version": "0.0.0",
+  "authors": [
+    "okuyan <yukookuyama@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "backbone": "~1.2.1",
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "marionette": "~2.4.2",
+    "handlebars": "~3.0.3"
+  }  
+}
